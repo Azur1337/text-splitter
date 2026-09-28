@@ -1,5 +1,7 @@
 # azur-text-splitter
 
+[![npm version](https://img.shields.io/npm/v/azur-text-splitter)](https://www.npmjs.com/package/azur-text-splitter)
+
 Splits an element's text into the lines, words and characters the browser
 already painted, and wraps each one in a span you can animate.
 
