@@ -1,4 +1,4 @@
-# text-splitter
+# azur-text-splitter
 
 Splits an element's text into the lines, words and characters the browser
 already painted, and wraps each one in a span you can animate.
@@ -12,13 +12,13 @@ balance`, hyphenation, `overflow-wrap`, a floated element, a scaled ancestor.
 ## install
 
 ```
-npm install text-splitter
+npm install azur-text-splitter
 ```
 
 ## usage
 
 ```js
-import { splitText } from 'text-splitter';
+import { splitText } from 'azur-text-splitter';
 
 const target = document.querySelector('h1');
 const split = splitText(target, { type: ['lines'] });

@@ -1,5 +1,5 @@
 {
-	"name": "text-splitter",
+	"name": "azur-text-splitter",
 	"version": "0.1.0",
 	"description": "Splits an element's text into the lines, words, and characters the browser already painted.",
 	"type": "module",
@@ -33,7 +33,7 @@
 	],
 	"license": "MIT",
 	"scripts": {
-		"build": "vite build",
+		"build": "vite build && tsc -p tsconfig.build.json",
 		"test": "vitest run",
 		"test:watch": "vitest"
 	},
